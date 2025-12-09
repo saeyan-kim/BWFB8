@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Biweekly<br>Finance<br>Briefing</title>
+    <style>
+        body {
+            background: #F5EBE1;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 40px;
+            color: #1E1928;
+        }
+        img.header-logo {
+            width: 320px;
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .tab {
+            overflow: hidden;
+            margin-bottom: 0;
+        }
+        .tab button {
+            background-color: #ffffff;
+            float: left;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            border-radius: 8px 8px 0 0;
+            outline: none;
+            cursor: pointer;
+            padding: 16px 32px;
+            font-size: 17px;
+            font-weight: bold;
+            color: #555055;
+            transition: 0.3s;
+            min-width: 180px;
+        }
+        .tab button:hover {
+            background-color: #F5EBE1;
+        }
+        .tab button.active {
+            background-color: #F54B1E;
+            color: white;
+        }
+        .tabcontent {
+            display: none;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .accordion {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            padding: 14px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            font-size: 1.05em;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+        .accordion:hover {
+            background-color: #f1f1f1;
+        }
+        .brief {
+            font-size: 0.95em;
+            color: #555055;
+            margin: 4px 0 8px 0;
+            padding-left: 10px;
+        }
+        .panel {
+            padding: 0 18px 8px 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+            border-left: 3px solid #F54B1E;
+            margin-bottom: 10px;
+        }
+        a {
+            color: black;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+
+    
+    
+<div style="display: flex; justify-content: space-between; align-items: flex-end; margin-top: 20px; margin-bottom: 40px; flex-wrap: wrap;">
+    <div style="flex-grow: 1;">
+        <img src="https://raw.githubusercontent.com/saeyan-kim/BWFB/main/Yanolja_CMYK_Logo_Orange.png" alt="Yanolja Logo" style="height: 36px; margin-bottom: 16px;">
+        <div style="font-size:2.4em; border-left: 8px solid #FF4F6E; padding-left: 16px; color: #333; line-height: 1.2; font-weight: bold;">
+            Biweekly Finance Briefing
+        </div>
+    </div>
+    <div style="font-size: 0.95em; color: #555; text-align: right; min-width: 120px; margin-bottom: 6px; font-family: Georgia, serif;">
+        December 10, 2025
+    </div>
+</div>
+
+    
+
+<div class="tab">
+<button class="tablinks" onclick="openTab(event, 'GAAP')">GAAP</button>
+<button class="tablinks" onclick="openTab(event, 'GAAS')">GAAS</button>
+<button class="tablinks" onclick="openTab(event, 'Tax')">Tax</button>
+<button class="tablinks" onclick="openTab(event, 'D&C')">D&C</button>
+<button class="tablinks" onclick="openTab(event, 'YIFRS')">YIFRS</button>
+<button class="tablinks" onclick="openTab(event, 'Notice')">Notice</button>
+</div>
+
+<div id="GAAP" class="tabcontent">
+<h2>GAAP</h2>
+
+
+<button class="accordion">'감가상각', AI 투자의 새로운 논란거리로 급부상</button>
+<div class="brief">대형 기술 기업들의 AI 투자가 급증하는 가운데, 값비싼 GPU와 칩의 가치가 예상보다 빠르게 떨어져 감가상각 비용이 기업 실적에 큰 부담이 될 것이라는 우려가 제기되고 있습니다.</div>
+<div class="panel">
+<p>인공지능(AI) 관련 투자가 확대되면서 대형 기술 기업들이 구매한 고가의 GPU 및 반도체 칩의 감가상각 문제가 새로운 논란거리로 떠올랐습니다. 마이클 버리와 BCA리서치의 피터 베레진 등 전문가들은 AI 관련 자산의 감가상각 비용이 향후 기업들의 순이익을 크게 훼손할 수 있다고 경고하며, 일부 기업이 감가상각 기간을 늘려 실적을 부풀리고 있다는 의혹도 제기했습니다. 반면, 일부 연구원들은 GPU 수명을 고려할 때 현재의 회계 처리가 합리적이라고 반박하고 있어, 감가상각에 대한 우려가 AI 투자 심리에 혼란을 주고 있는 상황입니다.</p>
+<a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4385281" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">금감원, 12월 10일 ‘2025년 K-IFRS 제·개정’ 설명회 개최</button>
+<div class="brief">K-IFRS 제1118(재무제표 표시와 공시) 등 핵심 개정사항과 해외 집행사례를 기업·감사인 대상으로 안내합니다.</div>
+<div class="panel">
+<p>금융감독원은 기업 회계실무자와 외부감사인을 대상으로 2025년 K-IFRS 제·개정의 핵심 포인트를 설명합니다. 2027년부터 적용될 K-IFRS 1118의 주요 내용, ESMA의 집행사례(사업결합·자산손상 등), 올해 국내 질의회신·IFRS 해석위 논의 등을 종합 공유합니다. 실무 적용과 공시에 미치는 영향 점검이 목적입니다.</p>
+<a href="https://view.asiae.co.kr/article/2025120214534410036" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">모회사 신용 '우회 활용'…롯데건설, 7000억 자본확충</button>
+<div class="brief">롯데건설 등 롯데 계열사들이 부채비율을 낮추기 위해 SPC를 통해 모회사의 우회 지급보증을 받는 방식으로 신종자본증권을 발행하여 자본 확충에 나서고 있습니다.</div>
+<div class="panel">
+<p>롯데그룹 계열사들이 재무 건전성 확보를 위해 특수목적법인(SPC)을 중간에 두고 모회사의 신용을 간접적으로 활용하는 신종자본증권 발행을 늘리고 있습니다. 롯데건설은 호텔롯데(4,000억 원)와 롯데물산(3,000억 원)의 지급보증을 통해 총 7,000억 원 규모의 신종자본증권을 발행할 예정입니다. 이번 발행으로 롯데건설은 자본이 확충되어 부채비율이 214%에서 170%로 개선될 전망이며, 보증을 선 모회사는 이를 우발채무로 처리하여 자체 부채비율 상승을 막을 수 있습니다. 이처럼 모회사의 신용 보강을 통해 자회사는 금리를 낮추고 모회사는 재무 부담을 표면화하지 않는 방식이 최근 롯데컬처웍스, 신세계건설 등 유통·건설 업계에서 확산되고 있습니다.</p>
+<a href="https://www.hankyung.com/article/202512027808r" target="_blank">원문 보기</a>
+</div>
+
+
+
+</div>
+
+
+<div id="GAAS" class="tabcontent">
+<h2>GAAS</h2>
+
+
+<button class="accordion">불공정·회계부정 제재시 방어권 키운다…절차적 권리 보호</button>
+<div class="brief">금융위원회는 자본시장 불공정거래 및 회계부정 조사·제재 과정에서 기업의 방어권 보장을 강화하고 절차적 권리를 보호하는 제도 개선을 추진하기로 했습니다.</div>
+<div class="panel">
+<p>금융위원회는 기업과 전문가들이 참여하는 회의를 열고 불공정거래와 회계부정 제재 절차의 선진화 방안을 논의했습니다. 상장회사협의회 등 업계는 고의성이 불분명한 회계 오류까지 형사처벌 대상이 될 수 있다는 우려를 전달하며, 조사 과정에서 충분한 소명 기회와 방어권을 보장해 줄 것을 요청했습니다. 이에 금융당국은 불공정거래와 회계부정 분과로 구성된 TF를 운영하여, 내년 상반기까지 피조사자의 절차적 권리 보호 강화와 경제형벌 규정의 적정성 등을 포함한 종합적인 제도 개선안을 마련할 계획입니다.</p>
+<a href="https://www.yna.co.kr/view/AKR20251202054600002?input=1195m" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">금감원, 상반기 회계감리 주요 지적사례 10건 공개</button>
+<div class="brief">금융감독원이 2025년 상반기 회계심사·감리 주요 지적사례 10건을 공개한 결과, 종속·관계기업 투자주식 및 재고자산 과대계상 등의 오류가 다수 발견되었습니다.</div>
+<div class="panel">
+<p>금융감독원은 기업과 외부감사인이 한국채택국제회계기준(K-IFRS)을 올바르게 적용하는 데 도움을 주기 위해 올해 상반기 주요 회계감리 지적사례 10건을 발표했습니다. 이번에 공개된 사례를 유형별로 보면 '종속·관계기업 투자주식' 평가 관련 지적과 '재고자산 및 유형자산' 과대계상 사례가 각각 3건으로 가장 많았으며, 이 외에 매출·매출원가 및 기타 자산·부채 관련 오류도 확인되었습니다. 금감원은 2011년부터 회계감리 지적사례를 매년 공개해오고 있으며, 이번 건을 포함해 총 192건의 사례를 통해 유사한 회계 오류 재발 방지를 유도하고 있습니다.</p>
+<a href="https://www.newsis.com/view/NISX20251202_0003424728" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">금융위, 회계처리 위반 아스트에 과징금 22억원 부과</button>
+<div class="brief">금융위원회는 이미 판매된 재고자산을 장부에 남겨두는 방식으로 자기자본을 부풀린 코스닥 상장사 아스트에 대해 약 22억 원의 과징금을 부과했습니다.</div>
+<div class="panel">
+<p>금융위원회는 회계처리기준을 위반하여 재무제표를 작성하고 공시한 ㈜아스트에 대해 과징금 22억 2,050만 원 부과를 의결했습니다. 조사 결과, 아스트는 이미 판매가 완료된 재고자산을 매출원가(비용)로 처리하지 않고 여전히 보유 중인 자산으로 분류하여 자기자본과 당기순이익을 과대계상한 사실이 드러났습니다. 금융당국은 회사에 대한 과징금 외에도 감사인지정 3년 등의 제재 조치를 함께 내리며, 회계 투명성 제고를 위한 감독을 지속할 것임을 밝혔습니다.</p>
+<a href="https://www.yna.co.kr/view/AKR20251203167100002?input=1195m" target="_blank">원문 보기</a>
+</div>
+
+</div>
+
+
+<div id="Tax" class="tabcontent">
+<h2>Tax</h2>
+
+
+<button class="accordion">2025년 종합부동산세 납부 안내 및 분납·유예 신청 절차</button>
+<div class="brief">국세청은 2025년 귀속 종합부동산세 납부 대상자 63만 명에게 고지서를 발송하여 12월 15일까지 납부를 안내하고, 요건 충족 시 분납 및 납부유예 신청이 가능함을 공지했습니다.</div>
+<div class="panel">
+<p>국세청은 총 63만 명(세액 5.3조 원)에게 2025년 종합부동산세 고지서를 발송했으며, 납세자는 12월 15일까지 납부해야 합니다. 납부세액이 300만 원을 초과하는 경우 별도의 이자 가산 없이 6개월 후인 2026년 6월 15일까지 분납할 수 있습니다. 1세대 1주택자 중 만 60세 이상 고령자 또는 5년 이상 장기보유자는 12월 12일까지 신청하면 주택 처분 시점까지 납부를 유예받을 수 있습니다. 고지 내용이 사실과 다르거나 합산배제 신고를 하지 못한 경우, 납부 기한 내에 자진 신고 및 납부가 가능하며 이 경우 당초 고지세액은 취소됩니다.</p>
+<a href="https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=2201&nttSn=1346860" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">2025년 세법개정안 기재위 전체회의 통과</button>
+<div class="brief">국회 기획재정위원회는 2025년 11월 30일 배당소득 분리과세 적용세율 인하, 상호금융 비과세 조정, 고액 체납자 감치 유지 등을 포함한 소득세법 등 11개 세법개정안을 의결했습니다.</div>
+<div class="panel">
+<p>배당소득 분리과세 적용세율이 구간별로 14%~25%로 수정되었으며, 거짓세금계산서 발급·수취에 대한 가산세율을 3%에서 4%로 상향했습니다. 인구감소지역 주택 취득 특례 대상에 비수도권 인구감소관심지역을 추가하고, 연구개발특구 입주기업 및 장애인 표준사업장에 대한 세액 감면 혜택을 확대했습니다. 가상자산 매각 위탁 시행 시기를 3개월 유예('26.10.1.)하고, 합성니코틴 담배에 대한 개별소비세를 한시적으로 감면하는 등의 수정 사항이 반영되었습니다.</p>
+<a href="https://www.moef.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000030414&fileSn=2" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">소득세법 개정안 본회의 통과… 교육비 세액공제 소득요건 폐지</button>
+<div class="brief">소득세법 개정안이 국회를 통과함에 따라 교육비 세액공제 소득요건이 폐지되고 초등 저학년 예체능 교육비 공제 및 보육수당 비과세 혜택이 확대됩니다.</div>
+<div class="panel">
+<p>국회는 자녀 양육 부담 완화를 위해 서영교 의원이 대표 발의한 '소득세법 일부개정법률안'을 통과시켰습니다. 이번 개정으로 대학생 자녀 등의 교육비 세액공제를 받기 위한 기존 소득요건이 폐지되어, 자녀의 소득과 관계없이 공제 혜택을 받을 수 있게 되었습니다. 또한, 기존 미취학 아동에게만 적용되던 예체능·체육 교육비 세액공제가 9세 미만 또는 초등 2학년 이하까지 확대되었습니다. 아울러 출산·육아 수당 비과세 한도가 기존 월 20만 원에서 '자녀 1인당 월 20만 원'으로 변경되어 다자녀 가구의 혜택이 강화되었습니다.</p>
+<a href="https://news.unn.net/news/articleView.html?idxno=587012" target="_blank">원문 보기</a>
+</div>
+
+
+</div>
+
+
+<div id="D&C" class="tabcontent">
+<h2>D&C</h2>
+
+
+<button class="accordion">PG사 관리·감독 장치, 전자금융거래법 개정안 국회 본회의 통과</button>
+<div class="brief">'티메프 사태' 재발 방지를 위해 PG사(전자지급결제대행업자)의 정산자금 전액 외부 예치를 의무화하고, 진입 규제 및 제재를 강화하는 전자금융거래법 개정안이 2025년 11월 27일 국회를 통과했습니다.</div>
+<div class="panel">
+<p>이번 개정안은 PG사가 판매자에게 줄 정산자금 전액을 예치·신탁·지급보증보험 등을 통해 별도로 관리하도록 의무화하여, PG사가 파산하더라도 판매자가 대금을 안전하게 돌려받을 수 있도록 했습니다. 또한 PG사의 거래 규모에 비례해 자본금 요건을 높이고 대주주 변경 시 허가를 받도록 하는 등 시장 진입 장벽을 높여 부실 업체의 난립을 막고자 했습니다. 아울러 경영지도기준을 지키지 않는 PG사에 대한 금융당국의 시정조치 권한을 명확히 하고, 정산자금을 유용할 경우 형사처벌을 할 수 있는 근거도 신설되었습니다.</p>
+<a href="https://www.fsc.go.kr/no010101/85751?srchCtgry=&curPage=2&srchKey=&srchText=&srchBeginDt=&srchEndDt=" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">금감원장, 가상자산거래소 ‘보안 실패’ 엄중 경고…내부통제 전면 점검 시사</button>
+<div class="brief">이찬진 금융감독원장은 해킹으로 약 450억 원의 피해를 입은 업비트의 보안 실패를 강하게 질타하며, 향후 2단계 가상자산 입법을 통해 규제를 강화하겠다고 밝혔습니다.</div>
+<div class="panel">
+<p>이찬진 금융감독원장은 최근 해킹 공격으로 450억 원(약 3,060만 달러) 상당의 가상자산이 탈취된 사건과 관련해, 업비트의 보안 태세와 미흡한 대응을 엄중히 경고했습니다. 이 원장은 현행 1단계 가상자산이용자보호법으로는 제재에 한계가 있음을 지적하며, 준비 중인 2단계 입법 과정에서 가상자산 사업자의 보안 책임을 강화하는 법적 근거를 마련하겠다고 강조했습니다. 또한, 업비트 운영사인 두나무와 네이버의 합병 계획에 대해서도 언급하며, 규제 공백 속에서 빅테크 기업이 가상자산을 통해 금융권으로 무분별하게 확장하는 것에 대해 시장 충격 우려를 표명했습니다.</p>
+<a href="https://www.koreaherald.com/article/10627202" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">기업공시서식 작성기준 개정</button>
+<div class="brief">이번 개정안은 2025년 12월 5일부터 시행되며, 공매도 거래자의 증권 취득 제한에 대한 구체적 공시 의무화, 배당 예측가능성 제고를 위한 배당정책 및 절차 공시 강화, 그리고 회계감사인과의 계약 현황 공개 등을 주요 골자로 하고 있습니다.</div>
+<div class="panel">
+<p>증권신고서 및 유상증자, CB/BW 발행 결정 서식에 법령상 정해진 기간 동안 공매도를 한 자의 증권 취득이 금지된다는 사실, 구체적인 금지 기간(시작일~종료일), 예외 허용 사유 및 위반 시 과징금 부과 사실을 명시하도록 개정되었습니다. 회사의 배당 목표 산출 근거와 향후 배당 방향성 등 구체적인 정책을 공개해야 하며, 정관상 배당액 확정 후 배당기준일을 정할 수 있는지 여부를 표시하여 배당 예측가능성을 제공해야 합니다. 또한 회계감사인의 네트워크 회계법인과 체결한 비감사용역 계약 현황과 내부감사기구가 재무제표 중요 사항에 대해 회계감사인과 논의한 결과를 상세히 표기하도록 하여 회계 투명성을 높였습니다. 이 기준은 2025년 12월 5일부터 시행되지만, 회계감사인 감사의견 등과 관련된 제5-2-1조 개정 사항은 2026년 1월 1일부터 적용됩니다.</p>
+<a href="https://www.fss.or.kr/fss/bbs/B0000145/view.do?nttId=207901&menuNo=200152" target="_blank">원문 보기</a>
+</div>
+
+
+</div>
+
+
+<div id="YIFRS" class="tabcontent">
+<h2>YIFRS</h2>
+
+<button class="accordion">스타트업·중소기업이 필히 점검해야 할 5대 세무리스크와 세무조사 대응 전략</button>
+<div class="brief">급성장하는 스타트업과 중소기업이 세무조사에 대비하기 위해 인건비, R&D, 증빙 관리 등 주요 리스크 요인을 사전에 점검하고 체계적인 관리 프로세스를 구축해야 합니다.</div>
+
+<div class="panel">
+  <p>스타트업은 빠른 성장에 집중하느라 세무 체계가 미흡한 경우가 많으나, 최근 신산업 분야에 대한 국세청의 검증이 강화되고 있어 체계적인 관리가 필수적입니다.</p>
+  <p>주요 세무 리스크로는 문서화되지 않은 인건비 및 스톡옵션, 불명확한 R&D 비용 처리, 전자세금계산서와 실제 거래의 불일치, 특수관계자 거래 등이 꼽힙니다.</p>
+  <p>이를 예방하기 위해 모든 거래의 계약서와 증빙을 철저히 갖추고, ERP 시스템을 통한 3-way 매칭(주문-입고-송장) 등 내부 통제 시스템을 구축해야 합니다.</p>
+  <p>아울러 평소에 '세무리스크 지도'를 만들어 대응 프로세스를 정립하고, 애매한 사안은 국세청의 '서면질의 제도'를 활용해 사전 유권해석을 받아두는 것이 안전합니다.</p>
+
+</div>
+</div>
+
+<div id="Notice" class="tabcontent">
+  <h2>Notice</h2>
+  <p>다음 업데이트는 2주 후 발송됩니다.</p>
+
+    
+</div>
+
+<script>
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementsByClassName("tablinks")[0].click();
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+});
+</script>
+
+</body>
+</html>
